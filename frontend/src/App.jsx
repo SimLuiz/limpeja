@@ -8,6 +8,9 @@ import {
   MessageCircle, Heart, Zap, Coffee, Droplets, Wind, Sun, Moon
 } from 'lucide-react';
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+
+
 // ==================== DADOS MOCKADOS ====================
 const mockCleaners = [
   { id: 1, name: 'Maria Silva', photo: '👩🏽', rating: 4.9, reviews: 127, price: 120, distance: '1.2km', available: true, verified: true, specialties: ['Residencial', 'Pós-obra'] },
